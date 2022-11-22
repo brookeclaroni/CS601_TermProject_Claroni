@@ -67,6 +67,10 @@ h2 {
     color: #9a82fa;
 }
 
+h3 {
+    color: rgb(180, 255, 197);
+}
+
 p, table {
     color: white;
 }
@@ -101,7 +105,18 @@ ul {
 }
 
 #row1 {
-    background-color:#141417;
+    background-color:#323236;
+}
+
+#row2 {
+    background-color:#29292d;
+}
+
+#resume_table {
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    border-spacing:20px;
 }
 
 .column {
