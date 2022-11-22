@@ -21,6 +21,18 @@
     </nav>
     <h2>Contact</h2>
 
+    <form name="contactForm" action="mailto:brookeclaroni@bu.edu" method="get" enctype="text/plain">
+        <p>Name: <input type="text" name="name"></p>
+        <p>Email: <input type="text" name="email"></p>
+        <p>Message: <input type="text" name="message"></p>
+        <p>Select your message priority:
+            <input type="radio" name="priority" value="low" checked>Low
+            <input type="radio" name="priority" value="medium">Medium
+            <input type="radio" name="priority" value="high">High
+        </p>
+        <input type="submit" name="submitButton" value="Submit">
+    </form>
+
     <div id="footer">
         <ul>
             <li><a href="https://www.linkedin.com/in/brooke-claroni-7bb429184/" target="_blank">Linkedin</a></li>
