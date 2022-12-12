@@ -1,0 +1,18 @@
+{
+    "degrees": [
+        {
+            "school": "The George Washington University",
+            "url": "https://www.gwu.edu",
+            "major": "Computer Science",
+            "type": "BS",
+            "year_conferred": 2021
+        },
+        {
+            "school": "Boston University",
+            "url": "https://www.bu.edu",
+            "major": "Software Development",
+            "type": "MS",
+            "year_conferred": 2023
+        }
+    ]
+}
