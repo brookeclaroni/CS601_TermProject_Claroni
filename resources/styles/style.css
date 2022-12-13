@@ -194,3 +194,12 @@ input[type=submit]:hover {
 .wrapper>div {
     padding: 16px;
 }
+
+.home-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.home-wrapper>div {
+    padding: 16px;
+}
