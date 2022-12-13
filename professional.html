@@ -7,104 +7,42 @@
         Professional Experience - Brooke Claroni
     </title>
     <link href="resources/styles/style.css" rel="stylesheet">
-    <script src="resources/scripts/script.js"></script>
 </head>
 
 <body>
-    <pre id="navigation"></pre>
+    <div class="header-container">
+        <a id="brookeclaroni" href="index.html"><h1>Brooke Claroni</h1></a>
+        <a class="tab" href="education.html">Education</a>
+        <a class="tab" href="professional.html">Professional</a>
+        <a class="tab" href="portfolio.html">Portfolio</a>
+        <a class="tab" href="hobbies.html">Hobbies</a>
+        <a class="tab" href="contact.html">Contact</a>
+    </div>
+    <hr>
+
     <h2>Professional Experience</h2>
 
-    <img src="resources/assets/images/companies.png" alt="Five company logos">
+    <div id="app">
+        <div class="degree" v-for="job in jobs">
+            <h3>{{ job.company }}</h3>
+            <p>Position: {{ job.position }}</p>
+            <p>Dates: {{ job.dates }}</p>
+        </div>
+    </div>
 
-    <table id="resume_table">
-        <caption>Brooke Claroni Resume</caption>
-        <thead>
-            <tr>
-                <th>
-                    Company
-                </th>
-                <th>
-                    Position
-                </th>
-                <th>
-                    Time Frame
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-                    MITRE
-                </td>
-                <td>
-                    Software Engineering Associate
-                </td>
-                <td>
-                    June 2021 - current
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    BetaPrime Consulting Inc.
-                </td>
-                <td>
-                    Software Engineering Intern
-                </td>
-                <td>
-                    October 2020 - May 2021
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    RIVA Solutions Inc.
-                </td>
-                <td>
-                    Information Technology Intern
-                </td>
-                <td>
-                    June 2020 - October 2020
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Deloitte
-                </td>
-                <td>
-                    Cyber Risk Intern
-                </td>
-                <td>
-                    July 2020 - July 2020
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Amtrak
-                </td>
-                <td>
-                    Test Analyst Intern
-                </td>
-                <td>
-                    January 2020 - May 2020
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Massachussetts General Hospital
-                </td>
-                <td>
-                    Web Development Intern
-                </td>
-                <td>
-                    May 2019 - September 2019
-                </td>
-            </tr>
-        </tbody>
-    </table>
+    <br>
 
-    <img src="resources/assets/images/mitre.jpg" alt="Brooke posing in front of MITRE sign">
-
-    <pre id="footer"></pre>
+    <div class="footer-container" id="footer">
+        <a href="https://www.linkedin.com/in/brooke-claroni-7bb429184/" target="_blank">LINKEDIN</a>
+        <a href="https://github.com/brookeclaroni" target="_blank">GITHUB</a>
+        <a href="https://www.facebook.com/brooke.claroni" target="_blank">FACEBOOK</a>
+        <a href="https://www.instagram.com/brookeclaroni/" target="_blank">INSTAGRAM</a>
+        <a href="https://www.tiktok.com/@brookeclaroni" target="_blank">TIKTOK</a>
+        <a href="https://www.pinterest.com/brooke_claroni/" target="_blank">PINTEREST</a>
+        <a href="https://open.spotify.com/user/brooke.claroni" target="_blank">SPOTIFY</a>
+    </div>
 
 </body>
-
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="resources/scripts/professional_script.js"></script>
 </html>
