@@ -28,4 +28,4 @@ https://brookeclaroni.github.io/CS601_TermProject_Claroni/
 https://github.com/brookeclaroni/CS601_TermProject_Claroni
 
 ## Video
-Coming Soon
+https://drive.google.com/file/d/1_EXDZeIyqKickrajtUD4sdt0To6jBmOZ/view?usp=sharing
